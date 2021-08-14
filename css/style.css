@@ -133,11 +133,9 @@ input[type="search"]::-webkit-search-results-decoration {
 .newsletter input[type=email]::-ms-input-placeholder { /* Microsoft Edge */
     color: #CCCCCC!important;
 }
-
-
-
+/* responsive classes */
 @media (max-width: 991.98px) { 
-    .w-lg-100{
+    .w-md-100{
         width: 100%;
     }
 }
