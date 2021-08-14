@@ -115,11 +115,24 @@ input[type="search"]::-webkit-search-results-decoration {
     width: auto;
 }
 
-/* Shoes and bags */
+/* Shoes and bags sections */
 .card img {
     max-width: 336px 
 }
 
+/* News letter section */
+.newsletter input[type=email]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #CCCCCC!important;
+    opacity: 1; /* Firefox */
+}
+  
+.newsletter input[type=email]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #CCCCCC!important;
+}
+  
+.newsletter input[type=email]::-ms-input-placeholder { /* Microsoft Edge */
+    color: #CCCCCC!important;
+}
 
 
 

@@ -23,12 +23,14 @@
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="" width="159px" height="26px" />
           </a>
+          <!-- Mobile device ham burger button -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
+        <!-- Search bar -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <form class="d-flex mx-auto search flex-grow-1 justify-content-center">
             <div class="position-relative w-75 d-flex align-items-center">
@@ -37,6 +39,7 @@
               <i class="bi bi-search position-absolute end-0 pe-3"></i>
             </div>
           </form>
+          <!-- Menu -->
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -173,7 +176,7 @@
       <div class="container">
         <div class="d-flex align-items-center justify-content-between pb-4 pt-5 ">
           <h2 class="text-primary fs-1 fw-semibold">Shoes</h2>
-          <span class="text-warning fw-semibold" style="font-size: 20px;">See all</span>
+          <a href="#" class="text-warning fw-semibold text-decoration-none" style="font-size: 20px;">See all</a>
         </div>
         <div class="row">
           <div class="col-md-4">
@@ -235,11 +238,11 @@
     </section>
     <!-- Shoes section end -->
     <!-- Backpack section start -->
-    <section class="bg-light">
-      <div class="container">
+    <section class="bg-light pb-5">
+      <div class="container pb-4">
         <div class="d-flex align-items-center justify-content-between pb-4 pt-5 ">
           <h2 class="text-primary fs-1 fw-semibold">Backpack</h2>
-          <span class="text-warning fw-semibold" style="font-size: 20px;">See all</span>
+          <a class="text-warning fw-semibold text-decoration-none" href="#" style="font-size: 20px;">See all</a>
         </div>
         <div class="row">
           <div class="col-md-4">
@@ -300,6 +303,20 @@
       </div>
     </section>
     <!-- Backpack section end -->
+    <!-- Newsletter section start -->
+    <section>
+      <div class="container p-5 newsletter rounded my-5" style="background-color: #FFF2F1;">
+        <div class="d-flex flex-column align-items-center p-5">
+          <h2 class="text-uppercase text-primary pt-3">LET'S STAY IN TOUCH</h2>
+          <p class="text-secondary fw-semibold py-2">Get updates on sales s pecials and more</p>
+          <form class="input-group mb-3 w-50" action="">
+            <input type="email" class="form-control fs-4 py-3 px-5 border-0" placeholder="Enter your email" aria-label="Enter your email">
+            <button class="btn btn-outline-secondary border-0 px-5 py-2 fs-5 text-success" style="background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);" type="button" id="button-addon2">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
 
   </main>
 
