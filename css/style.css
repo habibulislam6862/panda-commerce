@@ -19,8 +19,24 @@ body{
 .text-success {
     color: white!important;
 }
+.bg-primary {
+    background-color: #1F1F1F!important
+}
+.text-warning {
+    color: #FF9D00;
+}
+.fw-semibold {
+    font-weight: 600;
+}
+.card-title {
+    line-height: 36px;
+}
+.card .btn {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
 .rounded {
-    border-radius: 0.6rem!important;
+    border-radius: 1rem!important;
 }
 p {
     font-family: 'Inter', sans-serif;
@@ -93,8 +109,16 @@ input[type="search"]::-webkit-search-results-decoration {
 .carousel-inner {
     background-color: #FEEAE9;
 }
+/* Category section */
+.categories img {
+    height: 95px;
+    width: auto;
+}
 
-
+/* Shoes and bags */
+.card img {
+    max-width: 336px 
+}
 
 
 
