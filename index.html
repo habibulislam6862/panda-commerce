@@ -1,90 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- Panda Commerce CSS -->
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container d-flex justify-content-between align-items-center">
-              <div class="w-lg-100 d-flex d-xl-block justify-content-between">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="" width="159px" height="26px">
-                  </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              </div>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  
-                <form class="d-flex mx-auto search flex-grow-1 justify-content-center">
-                    <div class="position-relative w-75 d-flex align-items-center">
-                        <input class="form-control fst-italic rounded-pill pe-5" type="search" placeholder="Search" aria-label="Search">
-                        <i class="bi bi-search position-absolute end-0 pe-3"></i>
-                    </div>
-                </form>
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Product</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
-                  </li>
-                </ul>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- Panda Commerce CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <header>
+    <!-- Top nav bar start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="w-lg-100 d-flex d-xl-block justify-content-between">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="159px" height="26px" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex mx-auto search flex-grow-1 justify-content-center">
+            <div class="position-relative w-75 d-flex align-items-center">
+              <input class="form-control fst-italic rounded-pill pe-5" type="search" placeholder="Search"
+                aria-label="Search" />
+              <i class="bi bi-search position-absolute end-0 pe-3"></i>
+            </div>
+          </form>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Top nav bar end -->
+  </header>
+  <main>
+    <!-- Carousel section start -->
+    <section>
+      <div class="container mt-5">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-dark" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner rounded p-4">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-between flex-row-reverse align-items-center">
+                <img src="./images/banner-images/headphone.png" class="d-block" alt="..." />
+                <div class="carousel-caption d-none d-md-block ms-5">
+                  <h5 class="text-primary fw-bold h1">TUNICAL headphone</h5>
+                  <p class="text-secondary w-50">Over-Ear Headphones for Studio Recording Tracking Mixing Podcast
+                    Production, Digital Piano, Closed Back Comfortable DJ Earphones, Featuring 45mm Drivers and
+                    Isolating Earcups</p>
+                  <span class="h1 fw-medium d-block mt-5" style="color: #FF136F">$149</span>
+                  <a href="#"
+                    class="text-uppercase text-success py-3 px-5 rounded d-inline-block mt-3 text-decoration-none"
+                    style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);">Buy now</a>
+                </div>
               </div>
             </div>
-          </nav>
-    </header>
-    <main>
-        <section>
-            <div class="container mt-5">
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active d-flex justify-content-between flex-row-reverse ps-4" data-bs-interval="10000">
-                        <img src="images/banner-images/headphone.png" class="d-block" alt="headphone">
-                        <div class="carousel-caption d-flex align-items-center ms-5">
-                          <div>
-                            <h5 class="fw-bold fs-1 text-primary">Fire-Boltt Blast 1400 Over</h5>
-                            <p class="desc w-50 text-secondary text-break">"SUPERIOR HARDCORE DESIGN WITH IN BUILT MIC: This bluetooth wireless headphone features a strong, lightweight design crafted with premium materials. The cushioned adjustable headband lets you dial in the perfect fit, while soft memory foam ear cushions mold to your ears. </p>
-                            <span class="h1 d-block bd-purple-500 price">$1289</span>
-                            <button class="text-uppercase rounded border-0">Buy Now</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-between flex-row-reverse align-items-center">
+                <img src="./images/banner-images/tv.png" class="d-block" alt="..." />
+                <div class="carousel-caption d-none d-md-block ms-5">
+                  <h5 class="text-primary fw-bold h1">Bravia (brand)</h5>
+                  <p class="text-secondary w-50">Bravia (stylized as BRAVIA) is a brand of Sony Visual Products Inc.,[1]
+                    a wholly owned subsidiary of Sony Corporation, and used for its television products. Its backronym
+                    is "Best Resolution Audio Visual Integrated Architecture".</p>
+                  <span class="h1 fw-medium d-block mt-5" style="color: #FF136F">$1289</span>
+                  <a href="#"
+                    class="text-uppercase text-success py-3 px-5 rounded d-inline-block mt-3 text-decoration-none"
+                    style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);">Buy now</a>
+                </div>
+              </div>
             </div>
-        </section>
-    </main>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-between flex-row-reverse align-items-center">
+                <img src="./images/banner-images/xbox.png" class="d-block" alt="xbox" />
+                <div class="carousel-caption d-none d-md-block ms-5">
+                  <h5 class="text-primary fw-bold h1">Xbox</h5>
+                  <p class="text-secondary w-50">Xbox is a video gaming brand created and owned by Microsoft. The brand
+                    consists of five video game consoles, as well as applications (games), streaming services, an online
+                    service by the name of Xbox network, and the development arm by the name of Xbox Game Studios.</p>
+                  <span class="h1 fw-medium d-block mt-5" style="color: #FF136F">$600</span>
+                  <a href="#"
+                    class="text-uppercase text-success py-3 px-5 rounded d-inline-block mt-3 text-decoration-none"
+                    style="background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);">Buy now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Carousel section end -->
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="js/bootstrap.bundle.js"></script>
-  </body>
+  </main>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
 </html>

@@ -16,7 +16,18 @@ body{
 .text-secondary {
     color: #4E4E4E!important
 }
-
+.text-success {
+    color: white!important;
+}
+.rounded {
+    border-radius: 0.6rem!important;
+}
+p {
+    font-family: 'Inter', sans-serif;
+}
+fw-medium {
+    font-weight: 500;
+}
 /* Nav bar */
 .search i {
     color: #BABABA;
@@ -69,35 +80,19 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* Carousel */
+.carousel-item img {
+    width: 402px;
+    height: auto;
+}
+.carousel-caption {
+    right: initial; 
+    bottom: initial;
+    left: 0;
+    text-align: left;
+}
 .carousel-inner {
     background-color: #FEEAE9;
 }
-.carousel-inner img {
-    width: 402px;
-}
-.carousel-caption {
-    right: initial;
-    bottom: initial;
-    left: 0%;
-    text-align: left;
-    height: 100%;
-}
-.price {
-    color: #FF136F
-}
-.carousel-inner button {
-    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
-    height: 52px;
-    width: 168px;
-    padding: 14px, 20px, 14px, 20px;
-    color: white
-}
-.carousel-inner .desc {
-    line-height: 26px;
-}
-
-
-
 
 
 
